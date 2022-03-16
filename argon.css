@@ -366,7 +366,7 @@ button:not(:disabled),
 [type='submit']:not(:disabled)
 {
     cursor: pointer;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
 }
 
 button::-moz-focus-inner,
@@ -3064,14 +3064,8 @@ fieldset:disabled a.btn
     line-height: 1.25rem;
     margin-top: 1rem;
     width: 100%;
-    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
 }
-.gsc-comment-box-is-reply{
-    font-size: .875rem;
-    line-height: 1.25rem;
-    margin-top: 1rem;
-    width: 100%;
-}
+
 .btn-primary
 {
     color: #fff;
