@@ -101,6 +101,7 @@ body
 [tabindex='-1']:focus
 {
     outline: 0 !important;
+    border-radius: 0.5rem;
 }
 
 hr
@@ -217,14 +218,14 @@ a
 {
     text-decoration: none;
 
-    color: #5e72e4;
+    color: #0091eb;
     background-color: transparent;
 }
 a:hover
 {
     text-decoration: none;
 
-    color: #233dd2;
+    color: #3f6ec6;
 }
 
 a:not([href]):not([tabindex])
@@ -365,6 +366,7 @@ button:not(:disabled),
 [type='submit']:not(:disabled)
 {
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 button::-moz-focus-inner,
@@ -3056,16 +3058,19 @@ fieldset:disabled a.btn
     position: relative;
     padding-right: 2rem !important;
 }
-.gsc-reactions-menu:hover{
-    transform: translateY(-1px);
-    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
-}
+
 .gsc-comment-box{
     font-size: .875rem;
     line-height: 1.25rem;
     margin-top: 1rem;
     width: 100%;
     box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+.gsc-comment-box-is-reply{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+    width: 100%;
 }
 .btn-primary
 {
