@@ -3052,19 +3052,33 @@ fieldset:disabled a.btn
 {
     pointer-events: none;
 }
-
+.gsc-reactions-menu{
+    position: relative;
+    padding-right: 2rem !important;
+}
+.gsc-reactions-menu:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
+.gsc-comment-box{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+    width: 100%;
+    box-shadow: 0 7px 14px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+}
 .btn-primary
 {
     color: #fff;
-    border-color: #5e72e4;
-    background-color: #5e72e4;
+    border-color: #0091eb;
+    background-color: #0091eb;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
 }
 .btn-primary:hover
 {
     color: #fff;
-    border-color: #5e72e4;
-    background-color: #5e72e4;
+    border-color: #0091eb;
+    background-color: #0091eb;
 }
 .btn-primary:focus,
 .btn-primary.focus
@@ -3075,15 +3089,15 @@ fieldset:disabled a.btn
 .btn-primary:disabled
 {
     color: #fff;
-    border-color: #5e72e4;
-    background-color: #5e72e4;
+    border-color: #0091eb;
+    background-color: #0091eb;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle
 {
     color: #fff;
-    border-color: #5e72e4;
+    border-color: #0091eb;
     background-color: #324cdd;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
